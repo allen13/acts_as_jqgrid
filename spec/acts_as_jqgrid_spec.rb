@@ -5,7 +5,7 @@ describe ActiveRecord::Acts::Jqgrid do
     ActiveRecord::Acts::Jqgrid.should be_a(Module)
   end
 
-  it 'should make the active record model respond with jqgrid' do
+  it 'should make the model respond with jqgrid' do
     class Example < ActiveRecord::Base
       acts_as_jqgrid
     end
